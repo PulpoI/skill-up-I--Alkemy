@@ -23,7 +23,6 @@ function App() {
 
     if (favMovie !== null) {
       const favsArray = JSON.parse(favMovie);
-      console.log(favsArray);
       setFavorites(favsArray);
     }
   }, []);
